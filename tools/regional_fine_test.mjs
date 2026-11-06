@@ -76,8 +76,8 @@ const subIlr = (v6) => ilrMatrix([sub(v6)])[0];
 const applySub = (v6, a) => {
   const m = ilrInv([ilrMatrix([sub(v6)])[0].map((v, j) => v + a[j])])[0];
   const out = new Array(pc.length).fill(0);
-  // Plancher sur AUTRES : une part exactement nulle déclenche le remplacement
-  // des zéros de la bibliothèque, qui soustrait delta aux autres parts.
+  // Plancher sur AUTRES : une part exactement nulle déclencherait le
+  // remplacement multiplicatif des zéros, qui lui prêterait delta = (1/6)².
   out[ai] = Math.max(v6[ai], 1e-6);
   mainIdx.forEach((i, k) => { out[i] = m[k] * (1 - v6[ai]); });
   return out;

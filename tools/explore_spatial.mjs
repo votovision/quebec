@@ -1,6 +1,6 @@
 /**
  * Exploration de la couche par circonscription : candidats d'apprentissage
- * (ds 0.15, nn) qui prédisent la déviation au modèle de référence
+ * (ds, nn) qui prédisent la déviation au modèle de référence
  * (swing + langue), évalués par tools/lib/transitionEval.mjs (trois plis,
  * vote provincial connu, rétrécissement hors échantillon, bassin d'erreurs
  * hors échantillon). Résultats ajoutés à js/data/exploration_results.json.
@@ -9,7 +9,7 @@
  */
 
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
-import * as ds from "ds015";
+import * as ds from "@tangent.to/ds";
 import nn from "@tangent.to/nn";
 import { buildData, crossValidate, referenceTargets, printResult, K } from "./lib/transitionEval.mjs";
 

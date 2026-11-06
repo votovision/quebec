@@ -8,8 +8,8 @@ recensement) viennent du dépôt `votovision/data`, cloné à côté (`../data`)
 
 ## 1. Vérifier l'environnement
 
-Versions attestées au 2026-10-13 : Deno 2.x, Node 26.x, @duckdb/node-api et
-@tangent.to/ds 0.13.x figés par `package-lock.json` (`nodeModulesDir:
+Versions attestées au 2026-11-05 : Deno 2.x, Node 26.x, @duckdb/node-api et
+@tangent.to/ds 0.16.x figés par `package-lock.json` (`nodeModulesDir:
 "manual"` dans `deno.json` : le lockfile npm fait foi pour les deux runtimes ;
 `npm install` avant toute commande Deno).
 

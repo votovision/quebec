@@ -8,49 +8,49 @@
    "rho": 0.7,
    "dilation": 8,
    "ensembleSize": 20,
-   "topWeight": 0.283
+   "topWeight": 0.295
   },
   {
    "lengthScale": 1500,
    "noiseScale": 0.005,
    "rho": 0.7,
    "dilation": 8,
-   "ensembleSize": 33,
-   "topWeight": 0.21
+   "ensembleSize": 34,
+   "topWeight": 0.212
   },
   {
    "lengthScale": 680,
    "noiseScale": 0.01,
    "rho": 1,
    "dilation": 16,
-   "ensembleSize": 25,
-   "topWeight": 0.243
+   "ensembleSize": 22,
+   "topWeight": 0.227
   },
   {
    "lengthScale": 330,
    "noiseScale": 0.05,
    "rho": 1,
    "dilation": 4,
-   "ensembleSize": 42,
-   "topWeight": 0.212
+   "ensembleSize": 40,
+   "topWeight": 0.215
   },
   {
    "lengthScale": 470,
    "noiseScale": 0.05,
    "rho": 1,
    "dilation": 16,
-   "ensembleSize": 31,
-   "topWeight": 0.179
+   "ensembleSize": 28,
+   "topWeight": 0.17
   }
  ],
  "turnoutFactor": null,
  "nowcastMean": {
-  "CAQ": 0.157908,
-  "LIB": 0.240697,
-  "PCQ": 0.194768,
-  "PQ": 0.279573,
-  "QS": 0.109506,
-  "AUTRES": 0.017548
+  "CAQ": 0.157918,
+  "LIB": 0.240658,
+  "PCQ": 0.194729,
+  "PQ": 0.27951,
+  "QS": 0.109622,
+  "AUTRES": 0.017562
  },
  "pointCounts": {
   "CAQ": 1,
@@ -70,10 +70,10 @@
  },
  "winProbProbes": {
   "117": {
-   "CAQ": 0.016,
+   "CAQ": 0.0158,
    "LIB": 0.0002,
-   "PCQ": 0.7636,
-   "PQ": 0.2202,
+   "PCQ": 0.7642,
+   "PQ": 0.2198,
    "QS": 0,
    "AUTRES": 0
   },
@@ -89,5 +89,5 @@
    "AUTRES": 0
   }
  },
- "gallagherP50": 18.5988
+ "gallagherP50": 18.5879
 }
